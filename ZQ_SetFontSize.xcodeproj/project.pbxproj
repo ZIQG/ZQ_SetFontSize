@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		64FCE10C1D3A1E43003D0DAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE10B1D3A1E43003D0DAF /* main.m */; };
 		64FCE10F1D3A1E43003D0DAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE10E1D3A1E43003D0DAF /* AppDelegate.m */; };
-		64FCE1121D3A1E43003D0DAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE1111D3A1E43003D0DAF /* ViewController.m */; };
 		64FCE1151D3A1E43003D0DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64FCE1131D3A1E43003D0DAF /* Main.storyboard */; };
 		64FCE1171D3A1E43003D0DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FCE1161D3A1E43003D0DAF /* Assets.xcassets */; };
 		64FCE11A1D3A1E43003D0DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64FCE1181D3A1E43003D0DAF /* LaunchScreen.storyboard */; };
 		64FCE1251D3A1E44003D0DAF /* ZQ_SetFontSizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE1241D3A1E44003D0DAF /* ZQ_SetFontSizeTests.m */; };
 		64FCE1301D3A1E44003D0DAF /* ZQ_SetFontSizeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE12F1D3A1E44003D0DAF /* ZQ_SetFontSizeUITests.m */; };
+		64FCE1401D3A1E92003D0DAF /* IMSetFontSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE13F1D3A1E92003D0DAF /* IMSetFontSizeViewController.m */; };
+		64FCE1431D3A1F98003D0DAF /* ZQMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE1421D3A1F98003D0DAF /* ZQMessageCell.m */; };
+		64FCE1461D3A1FAF003D0DAF /* ZQMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE1451D3A1FAF003D0DAF /* ZQMessage.m */; };
+		64FCE1491D3A1FF8003D0DAF /* ZQMessageContentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE1481D3A1FF8003D0DAF /* ZQMessageContentButton.m */; };
+		64FCE14C1D3A2005003D0DAF /* ZQMessageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE14B1D3A2005003D0DAF /* ZQMessageFrame.m */; };
+		64FCE14F1D3A20EB003D0DAF /* IMSetUserDefaultTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE14E1D3A20EB003D0DAF /* IMSetUserDefaultTool.m */; };
+		64FCE1521D3A2104003D0DAF /* UIFont+IMFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE1511D3A2104003D0DAF /* UIFont+IMFont.m */; };
+		64FCE1551D3A296B003D0DAF /* woxin_setFontSize_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCE1531D3A296B003D0DAF /* woxin_setFontSize_line@2x.png */; };
+		64FCE1561D3A296B003D0DAF /* woxin_setFontSize_line@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCE1541D3A296B003D0DAF /* woxin_setFontSize_line@3x.png */; };
+		64FCE15C1D3A2BC9003D0DAF /* woxin_chatRight_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCE15B1D3A2BC9003D0DAF /* woxin_chatRight_bg@2x.png */; };
+		64FCE15E1D3A2BDE003D0DAF /* woxin_chatLeft_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCE15D1D3A2BDE003D0DAF /* woxin_chatLeft_bg@2x.png */; };
+		64FCE1601D3A2F92003D0DAF /* wolianw_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FCE15F1D3A2F92003D0DAF /* wolianw_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +50,6 @@
 		64FCE10B1D3A1E43003D0DAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64FCE10D1D3A1E43003D0DAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64FCE10E1D3A1E43003D0DAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64FCE1101D3A1E43003D0DAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64FCE1111D3A1E43003D0DAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		64FCE1141D3A1E43003D0DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64FCE1161D3A1E43003D0DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64FCE1191D3A1E43003D0DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,25 @@
 		64FCE12B1D3A1E44003D0DAF /* ZQ_SetFontSizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQ_SetFontSizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FCE12F1D3A1E44003D0DAF /* ZQ_SetFontSizeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQ_SetFontSizeUITests.m; sourceTree = "<group>"; };
 		64FCE1311D3A1E44003D0DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64FCE13E1D3A1E92003D0DAF /* IMSetFontSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMSetFontSizeViewController.h; sourceTree = "<group>"; };
+		64FCE13F1D3A1E92003D0DAF /* IMSetFontSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMSetFontSizeViewController.m; sourceTree = "<group>"; };
+		64FCE1411D3A1F98003D0DAF /* ZQMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQMessageCell.h; sourceTree = "<group>"; };
+		64FCE1421D3A1F98003D0DAF /* ZQMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQMessageCell.m; sourceTree = "<group>"; };
+		64FCE1441D3A1FAF003D0DAF /* ZQMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQMessage.h; sourceTree = "<group>"; };
+		64FCE1451D3A1FAF003D0DAF /* ZQMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQMessage.m; sourceTree = "<group>"; };
+		64FCE1471D3A1FF8003D0DAF /* ZQMessageContentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQMessageContentButton.h; sourceTree = "<group>"; };
+		64FCE1481D3A1FF8003D0DAF /* ZQMessageContentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQMessageContentButton.m; sourceTree = "<group>"; };
+		64FCE14A1D3A2005003D0DAF /* ZQMessageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQMessageFrame.h; sourceTree = "<group>"; };
+		64FCE14B1D3A2005003D0DAF /* ZQMessageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQMessageFrame.m; sourceTree = "<group>"; };
+		64FCE14D1D3A20EB003D0DAF /* IMSetUserDefaultTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMSetUserDefaultTool.h; sourceTree = "<group>"; };
+		64FCE14E1D3A20EB003D0DAF /* IMSetUserDefaultTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMSetUserDefaultTool.m; sourceTree = "<group>"; };
+		64FCE1501D3A2104003D0DAF /* UIFont+IMFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+IMFont.h"; sourceTree = "<group>"; };
+		64FCE1511D3A2104003D0DAF /* UIFont+IMFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+IMFont.m"; sourceTree = "<group>"; };
+		64FCE1531D3A296B003D0DAF /* woxin_setFontSize_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "woxin_setFontSize_line@2x.png"; sourceTree = "<group>"; };
+		64FCE1541D3A296B003D0DAF /* woxin_setFontSize_line@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "woxin_setFontSize_line@3x.png"; sourceTree = "<group>"; };
+		64FCE15B1D3A2BC9003D0DAF /* woxin_chatRight_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "woxin_chatRight_bg@2x.png"; sourceTree = "<group>"; };
+		64FCE15D1D3A2BDE003D0DAF /* woxin_chatLeft_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "woxin_chatLeft_bg@2x.png"; sourceTree = "<group>"; };
+		64FCE15F1D3A2F92003D0DAF /* wolianw_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wolianw_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +129,9 @@
 		64FCE1091D3A1E43003D0DAF /* ZQ_SetFontSize */ = {
 			isa = PBXGroup;
 			children = (
+				64FCE13D1D3A1E92003D0DAF /* SetFontSize */,
 				64FCE10D1D3A1E43003D0DAF /* AppDelegate.h */,
 				64FCE10E1D3A1E43003D0DAF /* AppDelegate.m */,
-				64FCE1101D3A1E43003D0DAF /* ViewController.h */,
-				64FCE1111D3A1E43003D0DAF /* ViewController.m */,
 				64FCE1131D3A1E43003D0DAF /* Main.storyboard */,
 				64FCE1161D3A1E43003D0DAF /* Assets.xcassets */,
 				64FCE1181D3A1E43003D0DAF /* LaunchScreen.storyboard */,
@@ -138,6 +165,32 @@
 				64FCE1311D3A1E44003D0DAF /* Info.plist */,
 			);
 			path = ZQ_SetFontSizeUITests;
+			sourceTree = "<group>";
+		};
+		64FCE13D1D3A1E92003D0DAF /* SetFontSize */ = {
+			isa = PBXGroup;
+			children = (
+				64FCE13E1D3A1E92003D0DAF /* IMSetFontSizeViewController.h */,
+				64FCE13F1D3A1E92003D0DAF /* IMSetFontSizeViewController.m */,
+				64FCE1501D3A2104003D0DAF /* UIFont+IMFont.h */,
+				64FCE1511D3A2104003D0DAF /* UIFont+IMFont.m */,
+				64FCE14D1D3A20EB003D0DAF /* IMSetUserDefaultTool.h */,
+				64FCE14E1D3A20EB003D0DAF /* IMSetUserDefaultTool.m */,
+				64FCE14A1D3A2005003D0DAF /* ZQMessageFrame.h */,
+				64FCE14B1D3A2005003D0DAF /* ZQMessageFrame.m */,
+				64FCE1471D3A1FF8003D0DAF /* ZQMessageContentButton.h */,
+				64FCE1481D3A1FF8003D0DAF /* ZQMessageContentButton.m */,
+				64FCE1441D3A1FAF003D0DAF /* ZQMessage.h */,
+				64FCE1451D3A1FAF003D0DAF /* ZQMessage.m */,
+				64FCE1411D3A1F98003D0DAF /* ZQMessageCell.h */,
+				64FCE1421D3A1F98003D0DAF /* ZQMessageCell.m */,
+				64FCE1531D3A296B003D0DAF /* woxin_setFontSize_line@2x.png */,
+				64FCE1541D3A296B003D0DAF /* woxin_setFontSize_line@3x.png */,
+				64FCE15B1D3A2BC9003D0DAF /* woxin_chatRight_bg@2x.png */,
+				64FCE15D1D3A2BDE003D0DAF /* woxin_chatLeft_bg@2x.png */,
+				64FCE15F1D3A2F92003D0DAF /* wolianw_logo.png */,
+			);
+			path = SetFontSize;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +296,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64FCE1601D3A2F92003D0DAF /* wolianw_logo.png in Resources */,
+				64FCE15E1D3A2BDE003D0DAF /* woxin_chatLeft_bg@2x.png in Resources */,
+				64FCE15C1D3A2BC9003D0DAF /* woxin_chatRight_bg@2x.png in Resources */,
 				64FCE11A1D3A1E43003D0DAF /* LaunchScreen.storyboard in Resources */,
 				64FCE1171D3A1E43003D0DAF /* Assets.xcassets in Resources */,
+				64FCE1561D3A296B003D0DAF /* woxin_setFontSize_line@3x.png in Resources */,
 				64FCE1151D3A1E43003D0DAF /* Main.storyboard in Resources */,
+				64FCE1551D3A296B003D0DAF /* woxin_setFontSize_line@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64FCE1121D3A1E43003D0DAF /* ViewController.m in Sources */,
+				64FCE14C1D3A2005003D0DAF /* ZQMessageFrame.m in Sources */,
+				64FCE1461D3A1FAF003D0DAF /* ZQMessage.m in Sources */,
+				64FCE1491D3A1FF8003D0DAF /* ZQMessageContentButton.m in Sources */,
+				64FCE1521D3A2104003D0DAF /* UIFont+IMFont.m in Sources */,
 				64FCE10F1D3A1E43003D0DAF /* AppDelegate.m in Sources */,
+				64FCE1431D3A1F98003D0DAF /* ZQMessageCell.m in Sources */,
+				64FCE14F1D3A20EB003D0DAF /* IMSetUserDefaultTool.m in Sources */,
 				64FCE10C1D3A1E43003D0DAF /* main.m in Sources */,
+				64FCE1401D3A1E92003D0DAF /* IMSetFontSizeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +562,7 @@
 				64FCE1361D3A1E44003D0DAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64FCE1371D3A1E44003D0DAF /* Build configuration list for PBXNativeTarget "ZQ_SetFontSizeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +571,7 @@
 				64FCE1391D3A1E44003D0DAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64FCE13A1D3A1E44003D0DAF /* Build configuration list for PBXNativeTarget "ZQ_SetFontSizeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +580,7 @@
 				64FCE13C1D3A1E44003D0DAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "IMSetFontSizeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UINavigationController * navi = [[UINavigationController alloc]initWithRootViewController:[IMSetFontSizeViewController new]];
+    self.window.rootViewController = navi;
     return YES;
 }
 

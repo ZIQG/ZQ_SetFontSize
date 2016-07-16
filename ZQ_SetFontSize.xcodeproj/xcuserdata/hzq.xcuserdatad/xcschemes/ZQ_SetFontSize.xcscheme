@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "64FCE1061D3A1E43003D0DAF"
+               BuildableName = "ZQ_SetFontSize.app"
+               BlueprintName = "ZQ_SetFontSize"
+               ReferencedContainer = "container:ZQ_SetFontSize.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "64FCE11F1D3A1E44003D0DAF"
+               BuildableName = "ZQ_SetFontSizeTests.xctest"
+               BlueprintName = "ZQ_SetFontSizeTests"
+               ReferencedContainer = "container:ZQ_SetFontSize.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "64FCE12A1D3A1E44003D0DAF"
+               BuildableName = "ZQ_SetFontSizeUITests.xctest"
+               BlueprintName = "ZQ_SetFontSizeUITests"
+               ReferencedContainer = "container:ZQ_SetFontSize.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "64FCE1061D3A1E43003D0DAF"
+            BuildableName = "ZQ_SetFontSize.app"
+            BlueprintName = "ZQ_SetFontSize"
+            ReferencedContainer = "container:ZQ_SetFontSize.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "64FCE1061D3A1E43003D0DAF"
+            BuildableName = "ZQ_SetFontSize.app"
+            BlueprintName = "ZQ_SetFontSize"
+            ReferencedContainer = "container:ZQ_SetFontSize.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "64FCE1061D3A1E43003D0DAF"
+            BuildableName = "ZQ_SetFontSize.app"
+            BlueprintName = "ZQ_SetFontSize"
+            ReferencedContainer = "container:ZQ_SetFontSize.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
